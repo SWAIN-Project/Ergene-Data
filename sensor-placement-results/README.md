@@ -6,7 +6,7 @@ The output of sensor placement model contianing an ordered list of **30** optima
     - sensor_num: each sensor_key is mapped to an integer value [0-74].
     - cost: this is the sensor cost associated with each of 75 locations. More details about this parameter are provied below [0-1].
 
-# Calculating "sensor cost"
+## Calculating "sensor cost"
 
 Data corresponding to a unique configurataion (i.e. distance_threshold=6500.0, outlier_threshold=1, remove_intersectoin=0) from sensor_result.csv is used for calculating the sensor cost which is basically the "rate of successful transmission". If a sensor is able to transmit all packets successfully then the cost associated with this sensor would be zero. And one if all transmissions result in failures (no packet transmitted). 
 
