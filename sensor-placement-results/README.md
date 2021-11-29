@@ -4,7 +4,7 @@ The output of sensor placement model contianing an ordered list of **30** optima
 
     - sensor_key: unique identifier for the sensor (same as used in the gateway placements).
     - sensor_num: each sensor_key is mapped to an integer value [0-74].
-    - cost: this is the sensor cost associated with each of 75 locations. More details about this parameter are provied below [0-1].
+    - cost: sensor cost associated with each of 75 locations [0-1]. More details about this parameter are provied below.
 
 ## Calculating "sensor cost"
 
