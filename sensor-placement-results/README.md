@@ -12,7 +12,7 @@ Data corresponding to a unique configurataion (i.e. distance_threshold=6500.0, o
 
 
 $$
-cost(sensor\_key) = \frac{(packets \ attempts - successfull \ transmissions)}{packets \ attempts} \,.
+cost(sensor\_key) = \frac{(packets \ attempts - successfull \ transmissions)}{packets \ attempts}.
 $$
 
 **NOTE:** The cost of a sensor that does not belong to any cluster is also set to 1.
