@@ -14,11 +14,12 @@ ModelName_s_key, ModelName_s_num, ModelName_poll_count, ModelName_detected_polls
 
 The total number of micropollutants detected from placements consisting of 30 sensors selected by each model are given below:
 
-MSPQR = 1209
-QR = 1253
-GP-MI = 1113
-GP-EN = 1025
-RAND = 996
-number of pollutants (ground truth) = 1502
+    - MSPQR = 1209
+    - QR = 1253
+    - GP-MI = 1113
+    - GP-EN = 1025
+    - GP-EN = 1025
+    - RAND = 996
+    - number of pollutants (ground truth) = 1502
 
 This information can be used to calculate different metrics such as accuracy to compare the proposed method with the baselines.
